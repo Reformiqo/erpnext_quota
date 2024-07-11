@@ -103,7 +103,10 @@ doc_events = {
     },
     'File': {
         'validate': 'erpnext_quota.erpnext_quota.quota.files_space_limit'
-    }
+    },
+    'Sales Invoice': {
+        'validate': 'erpnext_quota.install.pop_trial_remianing_days'
+    },
 }
 # Scheduled Tasks
 # ---------------

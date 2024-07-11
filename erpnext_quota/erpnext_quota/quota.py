@@ -220,3 +220,4 @@ def get_limit_period(period):
         'Monthly': {'start': str(get_first_day(today)), 'end': str(today)},
     }
     return frappe._dict(periods.get(period))
+
